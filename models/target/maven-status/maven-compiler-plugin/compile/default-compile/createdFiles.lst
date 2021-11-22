@@ -1,0 +1,8 @@
+com\RESTInPeace\models\ProductRecord.class
+com\RESTInPeace\models\User$UserBuilder.class
+com\RESTInPeace\models\User.class
+com\RESTInPeace\models\ImageQueueWrapper.class
+com\RESTInPeace\models\ProductRecord$ProductRecordBuilder.class
+com\RESTInPeace\models\Coffin$CoffinBuilder.class
+com\RESTInPeace\models\constants\ImageAPiConstants.class
+com\RESTInPeace\models\Coffin.class

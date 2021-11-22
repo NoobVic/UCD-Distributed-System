@@ -1,0 +1,47 @@
+# This file triggers the pipeline to check if the project is building to indicate on merge requests.
+image: maven:latest
+
+stages:
+  - build
+  - build_modules
+
+build:
+  stage: build
+  allow_failure: false
+  script:
+    - mvn clean install
+
+build_RIPAPI:
+    stage: build_modules
+    allow_failure: false
+    script:
+      - mvn clean install
+      - cd RIPAPI 
+      - mvn package
+
+build_coffinAPI:
+    stage: build_modules
+    allow_failure: false
+    script:
+      - mvn clean install
+      - cd coffinAPI 
+      - mvn package
+
+
+build_userAPI:
+    stage: build_modules
+    allow_failure: false
+    script:
+      - mvn clean install
+      - cd userAPI 
+      - mvn package
+
+
+build_ui:
+    stage: build_modules
+    allow_failure: false
+    script:
+      - mvn clean install
+      - cd ui
+      - mvn package
+    

@@ -1,0 +1,9 @@
+com\RESTInPeace\ui\configs\RIPAPIUtilsConfig.class
+com\RESTInPeace\ui\configs\RestTemplateConfigs.class
+com\RESTInPeace\ui\utils\RIPAPIUtils.class
+com\RESTInPeace\ui\controllers\SearchCoffin.class
+com\RESTInPeace\ui\utils\ImageAPIUtils.class
+com\RESTInPeace\ui\Application.class
+com\RESTInPeace\ui\controllers\CreateCoffin.class
+com\RESTInPeace\ui\controllers\Homepage.class
+com\RESTInPeace\ui\constants\RIPAPIConstants.class

@@ -1,0 +1,69 @@
+<mxfile host="app.diagrams.net" modified="2020-11-22T11:55:24.817Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Safari/605.1.15" etag="JmIIqrmaxQ8OKSN4ieoN" version="13.10.0" type="gitlab">
+  <diagram name="Page-1" id="b520641d-4fe3-3701-9064-5fc419738815">
+    <mxGraphModel dx="1426" dy="825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YPUJyhRBZlCo_t_n6Ifc-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YPUJyhRBZlCo_t_n6Ifc-1" target="YPUJyhRBZlCo_t_n6Ifc-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YPUJyhRBZlCo_t_n6Ifc-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YPUJyhRBZlCo_t_n6Ifc-1" target="YPUJyhRBZlCo_t_n6Ifc-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YPUJyhRBZlCo_t_n6Ifc-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YPUJyhRBZlCo_t_n6Ifc-1" target="YPUJyhRBZlCo_t_n6Ifc-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YPUJyhRBZlCo_t_n6Ifc-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YPUJyhRBZlCo_t_n6Ifc-1" target="YPUJyhRBZlCo_t_n6Ifc-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YPUJyhRBZlCo_t_n6Ifc-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YPUJyhRBZlCo_t_n6Ifc-1" target="YPUJyhRBZlCo_t_n6Ifc-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YPUJyhRBZlCo_t_n6Ifc-1" value="RIPAPI" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="360" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="YPUJyhRBZlCo_t_n6Ifc-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="YPUJyhRBZlCo_t_n6Ifc-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="110" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YPUJyhRBZlCo_t_n6Ifc-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="YPUJyhRBZlCo_t_n6Ifc-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710" y="140" as="targetPoint" />
+            <mxPoint x="550" y="40" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YPUJyhRBZlCo_t_n6Ifc-2" value="UI" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="30" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YPUJyhRBZlCo_t_n6Ifc-4" value="createRecord(Record)&lt;br&gt;return: boolean" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="200" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YPUJyhRBZlCo_t_n6Ifc-6" value="getRecords(String)&lt;br&gt;return: &amp;nbsp; ArrayList&amp;lt;Record&amp;gt;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="200" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YPUJyhRBZlCo_t_n6Ifc-9" value="Coffin &amp;nbsp;API" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="680" width="210" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="YPUJyhRBZlCo_t_n6Ifc-12" value="createCoffin(Coffin) return boolean" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="560" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YPUJyhRBZlCo_t_n6Ifc-14" value="getCoffins(String search) return: ArrayList&amp;lt;Coffin&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="760" y="560" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YPUJyhRBZlCo_t_n6Ifc-15" value="User API" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="680" width="210" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="YPUJyhRBZlCo_t_n6Ifc-17" value="deleteCoffin(String id) return: boolean" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="770" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YPUJyhRBZlCo_t_n6Ifc-19" value="createUser(User)&lt;br&gt;return boolean" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="440" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YPUJyhRBZlCo_t_n6Ifc-22" value="getIUser(String Email) return: User" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="520" width="150" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

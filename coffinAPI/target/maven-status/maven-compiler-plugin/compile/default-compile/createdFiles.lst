@@ -1,0 +1,5 @@
+com\RESTInPeace\coffinAPI\configs\MongoDbConfigs.class
+com\RESTInPeace\coffinAPI\constants\MongoConstants.class
+com\RESTInPeace\coffinAPI\utils\MongoDbTalkUtils.class
+com\RESTInPeace\coffinAPI\Application.class
+com\RESTInPeace\coffinAPI\controllers\CoffinActionController.class

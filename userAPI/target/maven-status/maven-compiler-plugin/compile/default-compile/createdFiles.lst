@@ -1,0 +1,5 @@
+com\RESTInPeace\userAPI\controllers\UserActionController.class
+com\RESTInPeace\userAPI\constants\MongoConstants.class
+com\RESTInPeace\userAPI\utils\MongoDbTalkUtils.class
+com\RESTInPeace\userAPI\Application.class
+com\RESTInPeace\userAPI\configs\MongoDbConfigs.class

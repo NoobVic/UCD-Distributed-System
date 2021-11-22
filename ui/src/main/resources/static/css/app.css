@@ -1,0 +1,6 @@
+/*all manual changes in app ui go here! */
+
+body{
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}

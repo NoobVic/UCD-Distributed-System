@@ -1,0 +1,5 @@
+com\RESTInPeace\imageAPI\Application.class
+com\RESTInPeace\imageAPI\utils\S3TalkUtils.class
+com\RESTInPeace\imageAPI\utils\QueueReadUtils.class
+com\RESTInPeace\imageAPI\Application$1.class
+com\RESTInPeace\imageAPI\constants\S3Constants.class

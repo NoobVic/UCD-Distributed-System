@@ -1,0 +1,5 @@
+com\RESTInPeace\RIPAPI\Application.class
+com\RESTInPeace\RIPAPI\constants\RipConstants.class
+com\RESTInPeace\RIPAPI\controllers\GetController.class
+com\RESTInPeace\RIPAPI\controllers\CleanController.class
+com\RESTInPeace\RIPAPI\controllers\CreateContoller.class
